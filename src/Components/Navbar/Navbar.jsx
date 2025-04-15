@@ -92,7 +92,7 @@ const Navbar = () => {
 
 
                     <div className="navbar_bottom_right">
-                        <p className="text-sm text-[#636270] font-inter font-normal capitalize">contact: <span className="text-[#272343]">(808)555-0111</span></p>
+                        <p className="text-sm text-[#636270] font-inter font-normal capitalize">contact: <span className="text-[#272343]">(977)555-0111</span></p>
                     </div>
 
                 </div>

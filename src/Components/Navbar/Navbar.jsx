@@ -30,7 +30,7 @@ const Navbar = () => {
 
       {/* middle Navbar */}
       <div className='navbar_middle flex items-center justify-center bg-[#f0f2f3] h-[84px] w-full'>
-        <div className='lg:container grid grid-cols-3 items-center'>
+        <div className='lg:container grid grid-cols-3 justify-between'>
           <div className='logo_wrapper'>
             <Link to="/" className='text-2xl text-black font-inter font-medium capitalize flex items-center gap-2'> <Armchair size="2rem" color='#029fae' />E-commerce</Link>
           </div>

@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,5 +9,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ],
 }

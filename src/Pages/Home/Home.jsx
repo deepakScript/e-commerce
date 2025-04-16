@@ -2,6 +2,7 @@ import Banner from "../../Components/Banner/Banner";
 import Brand from "../../Components/Brand/Brand";
 import Categories from "../../Components/Categories/Categories";
 import Client from "../../Components/Client/Client";
+import Footer from "../../Components/Footer/Footer";
 import Product from "../../Components/Product/Product";
 import Recent from "../../Components/Recent/Recent";
 import Delivery from './../../Components/Delivery/Delivery';
@@ -57,6 +58,11 @@ const Home = () => {
             {/* Recent component  */}
             <div className="w-full flex items-center justify-center pb-[80px] pt-[80px]">
                 <Recent></Recent>
+            </div>
+
+            {/* footer component */}
+            <div className="w-full flex items-center justify-center ">
+                <Footer></Footer>
             </div>
 
         </div>

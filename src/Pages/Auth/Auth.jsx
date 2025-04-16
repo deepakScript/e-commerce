@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Outlet} from 'react-router';
 
 const Auth = () => {
-  return (
-    <div>
-      Auth Jsx form
-    </div>
-  )
-}
 
-export default Auth
+    return (
+        <div>
+            <Outlet/>
+        </div>
+    );
+};
+
+export default Auth;

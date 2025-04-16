@@ -28,8 +28,7 @@ const Navbar = () => {
 
             {/* navbar middle  */}
             <div className="navbar_middle flex items-center justify-center bg-[#f0f2f3] w-full h-[84px]">
-                <div className="lg:container grid grid-cols-3 items-center">
-
+                <div className="lg:container grid grid-cols-3 justify-between ">
                     <div className="logo_wrapper">
                         <Link to='/' className="text-3xl text-black font-inter font-medium capitalize flex items-center gap-2"><Armchair size='2rem' color="#029fae" /> e-commerce</Link>
                     </div>
@@ -43,7 +42,7 @@ const Navbar = () => {
                     </div>
 
                     {/* navbar middle right  */}
-                    <div className="navbar_middle_right flex items-center gap-4">
+                    <div className="navbar_middle_right flex items-center gap-3 ml-15">
 
                         <button className="btn capitalize">
                             <ShoppingCart /> cart <div className="badge badge-sm bg-[#029fae]">2</div>

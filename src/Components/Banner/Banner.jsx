@@ -42,8 +42,8 @@ const Banner = () => {
     };
 
     return (
-        <div className="lg:container">
-            <div className="slider-container slider_container w-full h-full">
+        <div className="lg:container mx-5">
+            <div className="slider-container ">
                 <Slider {...settings}>
                     {
                         products?.map((product) => (

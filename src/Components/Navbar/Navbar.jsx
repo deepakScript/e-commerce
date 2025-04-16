@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="navbar_top_right flex items-center gap-6">
                         <select defaultValue="Server location" className="bg-none h-[30px] w-[70px] text-sm font-inter font-normal capitalize text-white ">
                             <option>eng</option>
-                            <option>nep</option>
+                            <option>bangla</option>
                         </select>
 
                         <button><Link className="text-sm text-white font-inter font-normal capitalize">Faqs</Link></button>
@@ -28,9 +28,10 @@ const Navbar = () => {
 
             {/* navbar middle  */}
             <div className="navbar_middle flex items-center justify-center bg-[#f0f2f3] w-full h-[84px]">
-                <div className="lg:container grid grid-cols-3 justify-between ">
+                <div className="lg:container grid grid-cols-3 items-center">
+
                     <div className="logo_wrapper">
-                        <Link to='/' className="text-3xl text-black font-inter font-medium capitalize flex items-center gap-2"><Armchair size='2rem' color="#029fae" /> e-commerce</Link>
+                        <Link to='/' className="text-3xl text-black font-inter font-medium capitalize flex items-center gap-2"><Armchair size='2rem' color="#029fae" /> comforty</Link>
                     </div>
 
                     <div className="search_box">
@@ -42,7 +43,7 @@ const Navbar = () => {
                     </div>
 
                     {/* navbar middle right  */}
-                    <div className="navbar_middle_right flex items-center gap-3 ml-15">
+                    <div className="navbar_middle_right flex items-center gap-4">
 
                         <button className="btn capitalize">
                             <ShoppingCart /> cart <div className="badge badge-sm bg-[#029fae]">2</div>
@@ -91,7 +92,7 @@ const Navbar = () => {
 
 
                     <div className="navbar_bottom_right">
-                        <p className="text-sm text-[#636270] font-inter font-normal capitalize">contact: <span className="text-[#272343]">(977)555-0111</span></p>
+                        <p className="text-sm text-[#636270] font-inter font-normal capitalize">contact: <span className="text-[#272343]">(808)555-0111</span></p>
                     </div>
 
                 </div>
